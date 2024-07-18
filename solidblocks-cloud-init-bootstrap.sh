@@ -190,8 +190,8 @@ function package_ensure_package() {
 ################################################################################
 
 export SOLIDBLOCKS_DIR="${SOLIDBLOCKS_DIR:-/solidblocks}"
-export SOLIDBLOCKS_VERSION="v0.2.6-pre"
-export SOLIDBLOCKS_CLOUD_INIT_CHECKSUM="0bb97107376901b894f6b00e1451dca9228ec45d08b611988fb7928395478569"
+export SOLIDBLOCKS_VERSION="v0.2.6-pre5"
+export SOLIDBLOCKS_CLOUD_INIT_CHECKSUM="98339676f3eaaa93792b7d89fb7accd05f425c1b74f20b0b46f39c2f02a711f7"
 export SOLIDBLOCKS_BASE_URL="${SOLIDBLOCKS_BASE_URL:-https://github.com}"
 
 function solidblocks_bootstrap_cloud_init() {
